@@ -1,0 +1,163 @@
+h2 {
+    text-align:center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+table {
+    border-collapse: collapse;
+    border: 10px solid black;
+    max-width: 850px;
+    margin: 0 auto;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+  th {
+    background-color:cornflowerblue;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    text-align:center;
+  }
+
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+    background-color:lavender;
+  }
+
+  body {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+  }
+  
+  /* Media query para dispositivos de pantalla pequeña */
+  @media (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Media query para dispositivos de pantalla mediana */
+  @media (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* Media query para dispositivos de pantalla grande */
+  @media (min-width: 992px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Ajustes de estilo para la barra de navegación */
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .nav-link {
+    color:black;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .nav-link:hover {
+    background-color:cornflowerblue;
+    color: black;
+  }
+  
+  /* Imágenes responsivas */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+/* Estilo para el encabezado h2 */
+h2 {
+  font-size: 2.5rem; /* tamaño de fuente */
+  font-weight: bold; /* peso de la fuente */
+  color: #333; /* color del texto */
+  text-align: center; /* alineación del texto */
+  margin-bottom: 1.5rem; /* margen inferior */
+}
+
+/* Estilo para el contenido dentro de los elementos div */
+div {
+  padding: 1rem; /* relleno interno */
+  border: 1px solid black; /* borde */
+  margin-bottom: 1.5rem; /* margen inferior */
+}
+
+/* Estilo para el texto dentro de los párrafos p */
+div p {
+  font-size: 1.2rem; /* tamaño de fuente */
+  line-height: 1.5; /* altura de línea */
+  margin-bottom: 1rem; /* margen inferior */
+}
+/* Estilos para el formulario */
+form {
+  width: 80%; /* ancho del formulario */
+  max-width: 600px; /* ancho máximo */
+  margin: 0 auto; /* centrar horizontalmente */
+  padding: 1rem; /* relleno interno */
+  border: 1px solid #ddd; /* borde */
+  border-radius: 5px; /* borde redondeado */
+  background-color: #f9f9f9; /* color de fondo */
+}
+
+/* Estilos para las etiquetas del formulario */
+label {
+  display: block; /* mostrar en una línea separada */
+  margin-bottom: 0.5rem; /* margen inferior */
+  font-size: 1.2rem; /* tamaño de fuente */
+  font-weight: bold; /* peso de la fuente */
+  color: #333; /* color del texto */
+}
+
+/* Estilos para los campos de entrada */
+input[type="email"],
+input[type="password"],
+input[type="text"],
+textarea {
+  display: block; /* mostrar en una línea separada */
+  width: 100%; /* ancho completo */
+  padding: 0.5rem; /* relleno interno */
+  border: 1px solid #ddd; /* borde */
+  border-radius: 5px; /* borde redondeado */
+  font-size: 1.2rem; /* tamaño de fuente */
+  margin-bottom: 1rem; /* margen inferior */
+}
+
+/* Estilos para el botón de envío */
+input[type="submit"] {
+  background-color: #333; /* color de fondo */
+  color: #fff; /* color del texto */
+  border: none; /* sin borde */
+  padding: 0.5rem 1rem; /* relleno interno */
+  font-size: 1.2rem; /* tamaño de fuente */
+  border-radius: 5px; /* borde redondeado */
+  cursor: pointer; /* cursor de apuntador */
+  margin-top: 1rem; /* margen superior */
+}
+
+/* Estilos para los mensajes de error */
+input:invalid,
+textarea:invalid {
+  border-color: red; /* color del borde */
+}
+
+input:invalid + span,
+textarea:invalid + span {
+  color: red; /* color del texto */
+  font-size: 0.8rem; /* tamaño de fuente */
+  margin-left: 0.5rem; /* margen izquierdo */
+}
